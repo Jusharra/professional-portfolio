@@ -27,7 +27,7 @@ const projects = [
   },
   {
     id: 'comply-guardian',
-    title: 'Comply Guardian AI',
+    title: 'Comply Guardian',
     summary: 'AI-powered compliance management platform for enterprise security and regulatory frameworks',
     problem: 'Organizations struggle to maintain continuous compliance across multiple frameworks (SOC2, HIPAA, PCI-DSS) with manual processes',
     approach: 'AI-driven compliance monitoring + automated evidence collection + real-time risk assessment + regulatory mapping',
@@ -38,8 +38,8 @@ const projects = [
     year: '2024',
     badge: 'Security',
     links: {
-      live: 'https://complyguardian-ai.lovable.app/',
-      github: 'https://github.com/Jusharra/complyguard-ai-hub'
+      live: 'https://complyguardian.lovable.app/',
+      github: 'https://github.com/Jusharra/complyguardian'
     },
     image: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg'
   },
