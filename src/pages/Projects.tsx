@@ -56,8 +56,8 @@ const projects = [
     year: '2024',
     badge: 'SaaS',
     links: {
-      live: 'https://neonomos-ai.lovable.app/',
-      github: 'https://github.com/Jusharra/neonomos-marketplace'
+      live: 'https://neonomos.io/',
+      github: 'https://github.com/Jusharra/Neonomos'
     },
     image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg'
   },
