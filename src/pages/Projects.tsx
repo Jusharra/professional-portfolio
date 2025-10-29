@@ -26,6 +26,42 @@ const projects = [
     image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg'
   },
   {
+    id: 'comply-guardian',
+    title: 'Comply Guardian AI',
+    summary: 'AI-powered compliance management platform for enterprise security and regulatory frameworks',
+    problem: 'Organizations struggle to maintain continuous compliance across multiple frameworks (SOC2, HIPAA, PCI-DSS) with manual processes',
+    approach: 'AI-driven compliance monitoring + automated evidence collection + real-time risk assessment + regulatory mapping',
+    results: 'Reduced compliance preparation time by 75%; achieved 99.8% audit readiness score across multiple frameworks',
+    role: 'Lead Security Engineer, Compliance Architect',
+    stack: ['Python', 'AI/ML', 'AWS', 'Docker', 'PostgreSQL', 'React'],
+    category: 'Security',
+    year: '2024',
+    badge: 'Security',
+    links: {
+      live: 'https://complyguardian-ai.lovable.app/',
+      github: 'https://github.com/Jusharra/complyguard-ai-hub'
+    },
+    image: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg'
+  },
+  {
+    id: 'neonomos',
+    title: 'NeoNomos Legal AI',
+    summary: 'Advanced AI platform for legal document analysis, contract review, and regulatory compliance',
+    problem: 'Legal teams spend 70% of their time on document review and compliance checking, leading to high costs and human error',
+    approach: 'NLP-powered document analysis + contract risk assessment + automated compliance checking + legal precedent matching',
+    results: 'Accelerated legal review processes by 80%; reduced contract analysis time from days to hours',
+    role: 'AI Solutions Architect, Technical Lead',
+    stack: ['Python', 'NLP', 'TensorFlow', 'FastAPI', 'MongoDB', 'React'],
+    category: 'AI',
+    year: '2024',
+    badge: 'AI',
+    links: {
+      live: 'https://neonomos-ai.lovable.app/',
+      github: 'https://github.com/Jusharra/neonomos-legal-ai'
+    },
+    image: 'https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg'
+  },
+  {
     id: 'laundromat-saas',
     title: 'Laundromat Management SaaS',
     summary: 'Full-stack SaaS platform for laundromat operations with IoT machine monitoring',
