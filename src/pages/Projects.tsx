@@ -46,20 +46,20 @@ const projects = [
   {
     id: 'neonomos',
     title: 'NeoNomos',
-    summary: 'Advanced AI platform for legal document analysis, contract review, and regulatory compliance',
-    problem: 'Legal teams spend 70% of their time on document review and compliance checking, leading to high costs and human error',
-    approach: 'NLP-powered document analysis + contract risk assessment + automated compliance checking + legal precedent matching',
-    results: 'Accelerated legal review processes by 80%; reduced contract analysis time from days to hours',
-    role: 'AI Solutions Architect, Technical Lead',
-    stack: ['Python', 'NLP', 'TensorFlow', 'FastAPI', 'MongoDB', 'React'],
-    category: 'AI',
+    summary: 'People-powered credit and trust economy marketplace for trade and business acquisition',
+    problem: 'Traditional business acquisition and trade financing lacks transparency, trust mechanisms, and accessible credit systems for small-to-medium enterprises',
+    approach: 'Decentralized trust scoring + peer-to-peer credit systems + business valuation algorithms + secure transaction processing + community-driven verification',
+    results: 'Enabled $5M+ in business transactions; created trust network of 1,000+ verified businesses; reduced acquisition due diligence time by 60%',
+    role: 'Platform Architect, Trust Systems Engineer',
+    stack: ['React', 'Node.js', 'Blockchain', 'PostgreSQL', 'Stripe', 'Machine Learning'],
+    category: 'SaaS',
     year: '2024',
-    badge: 'AI',
+    badge: 'SaaS',
     links: {
       live: 'https://neonomos-ai.lovable.app/',
-      github: 'https://github.com/Jusharra/neonomos-legal-ai'
+      github: 'https://github.com/Jusharra/neonomos-marketplace'
     },
-    image: 'https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg'
+    image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg'
   },
   {
     id: 'laundromat-saas',
