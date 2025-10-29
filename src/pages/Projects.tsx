@@ -127,7 +127,7 @@ const projects = [
     year: '2024',
     badge: 'Security',
     links: {
-        github: 'https://github.com/Jusharra/aws_automated_access_review'
+      github: 'https://github.com/Jusharra/aws_automated_access_review'
     },
     image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg'
   },
@@ -144,7 +144,6 @@ const projects = [
     year: '2024',
     badge: 'AI',
     links: {
-      live: 'https://security-ai-agents.lovable.app/',
       github: 'https://github.com/Jusharra/security-ai-agents'
     },
     image: 'https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg'
