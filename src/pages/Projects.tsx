@@ -113,6 +113,42 @@ const projects = [
       github: 'https://github.com/Jusharra/complyguard-ai-hub'
     },
     image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg'
+  },
+  {
+    id: 'aws-access-review',
+    title: 'AWS Automated Access Review',
+    summary: 'Zero-configuration security assessment tool for AWS environments with automated risk evaluation',
+    problem: 'Organizations struggle to continuously monitor AWS access permissions and identify security risks across complex cloud environments',
+    approach: 'Automated AWS API scanning + IAM policy analysis + compliance gap detection + risk scoring + actionable remediation recommendations',
+    results: 'Identified 95% of critical access risks within minutes; reduced manual security reviews from weeks to hours',
+    role: 'Cloud Security Architect, Lead Developer',
+    stack: ['AWS SDK', 'Python', 'IAM', 'CloudTrail', 'Lambda', 'DynamoDB'],
+    category: 'Security',
+    year: '2024',
+    badge: 'Security',
+    links: {
+      live: 'https://aws-access-review.lovable.app/',
+      github: 'https://github.com/Jusharra/aws-access-review'
+    },
+    image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg'
+  },
+  {
+    id: 'security-ai-agents',
+    title: 'Security AI Agents - Incident Response',
+    summary: 'AI-powered incident response agents that investigate, classify, and respond to cybersecurity threats in minutes',
+    problem: 'SOC teams struggle with manual incident response processes, compliance documentation, and ensuring consistent response across multiple regulatory frameworks',
+    approach: 'AI agent orchestration + real-time threat classification + automated IR playbook generation + compliance mapping + documentation automation',
+    results: 'Reduced incident response time from hours to minutes; achieved 100% compliance documentation accuracy across HIPAA, NIST, ISO, GDPR, SOC 2, PCI DSS',
+    role: 'AI Security Architect, Incident Response Lead',
+    stack: ['Python', 'AI Agents', 'NIST Framework', 'SOAR', 'Machine Learning', 'FastAPI'],
+    category: 'AI',
+    year: '2024',
+    badge: 'AI',
+    links: {
+      live: 'https://security-ai-agents.lovable.app/',
+      github: 'https://github.com/Jusharra/security-ai-agents'
+    },
+    image: 'https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg'
   }
 ];
 
