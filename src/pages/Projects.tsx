@@ -127,8 +127,7 @@ const projects = [
     year: '2024',
     badge: 'Security',
     links: {
-      live: 'https://aws-access-review.lovable.app/',
-      github: 'https://github.com/Jusharra/aws-access-review'
+        github: 'https://github.com/Jusharra/aws_automated_access_review'
     },
     image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg'
   },
