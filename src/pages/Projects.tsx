@@ -92,7 +92,7 @@ const projects = [
     year: '2025',
     badge: 'Security',
     links: {
-      live: 'https://www.luxconnoisseurs.com/',      
+      live: 'https://www.hothandbuys.us/',      
     },
     image: 'https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg'
   },
