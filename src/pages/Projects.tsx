@@ -45,7 +45,7 @@ const projects = [
   },
   {
     id: 'neonomos',
-    title: 'NeoNomos Legal AI',
+    title: 'NeoNomos',
     summary: 'Advanced AI platform for legal document analysis, contract review, and regulatory compliance',
     problem: 'Legal teams spend 70% of their time on document review and compliance checking, leading to high costs and human error',
     approach: 'NLP-powered document analysis + contract risk assessment + automated compliance checking + legal precedent matching',
