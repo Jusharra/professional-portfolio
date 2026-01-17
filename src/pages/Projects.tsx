@@ -92,13 +92,13 @@ const projects = [
     year: '2025',
     badge: 'Security',
     links: {
-      live: 'https://www.hothandbuys.us/',      
+      live: 'https://www.hothandbuys.us/'      
     },
     image: 'https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg'
   },
   {
     id: 'soc-automation',
-    title: 'SOC Incident Response Automation',
+    title: 'MLSecOps SOC Incident Response Automation',
     summary: 'Automated security incident response system reducing MTTR by 65%',
     problem: 'Manual incident response processes caused delays in threat containment and resolution',
     approach: 'SOAR platform integration + custom Python scripts + threat intelligence feeds + automated playbooks',
@@ -109,8 +109,8 @@ const projects = [
     year: '2025',
     badge: 'Security',
     links: {
-      live: 'https://complyguardian-ai.lovable.app/', 
-      github: 'https://github.com/Jusharra/complyguard-ai-hub'
+      live: 'https://mlsecops-dashboard.streamlit.app/', 
+      github: 'https://github.com/Jusharra/azure-agentic-ai-security-lab/tree/feature/phase-1-identity-foundations://github.com/Jusharra?tab=repositories'
     },
     image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg'
   },
@@ -147,6 +147,74 @@ const projects = [
       github: 'https://github.com/Jusharra/security-ai-agents'
     },
     image: 'https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg'
+  },
+  {
+    id: 'terraform-guardrails',
+    title: 'Compliance-as-Code Terraform Guardrails',
+    summary: 'Automated compliance checks for Terraform infrastructure using policy-as-code frameworks',
+    problem: 'Infrastructure deployments often bypass security and compliance requirements, leading to policy violations and audit failures',
+    approach: 'Terraform IaC + Checkov/OPA policy enforcement + GitHub Actions OIDC for automated compliance validation in CI/CD pipelines',
+    results: 'Prevented 100% of non-compliant infrastructure deployments; reduced compliance review time from days to minutes',
+    role: 'DevSecOps Engineer, Compliance Architect',
+    stack: ['Terraform', 'Checkov', 'OPA', 'GitHub Actions', 'AWS', 'Policy-as-Code'],
+    category: 'Security',
+    year: '2024',
+    badge: 'Security',
+    links: {
+      github: 'https://github.com/Jusharra/terraform-compliance-guardrails'
+    },
+    image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg'
+  },
+  {
+    id: 'ai-governance-rag',
+    title: 'AI Governance Knowledge Base — Compliance RAG + Pinecone Assistant',
+    summary: 'Retrieval-Augmented Generation system for instant compliance control and policy mapping',
+    problem: 'Auditors and compliance teams struggle to quickly identify which controls address specific compliance requirements across multiple frameworks',
+    approach: 'RAG architecture + Pinecone vector database + MCP agent integration for intelligent compliance knowledge retrieval and mapping',
+    results: 'Reduced compliance research time by 90%; achieved 98% accuracy in control-to-requirement mapping across SOC 2, ISO 27001, NIST',
+    role: 'AI Engineer, Compliance Systems Architect',
+    stack: ['Python', 'RAG', 'Pinecone', 'OpenAI', 'MCP', 'Vector Database'],
+    category: 'AI',
+    year: '2024',
+    badge: 'AI',
+    links: {
+      github: 'https://github.com/Jusharra/ai-governance-rag'
+    },
+    image: 'https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg'
+  },
+  {
+    id: 'continuous-compliance-platform',
+    title: 'AI-Powered Continuous Compliance Platform (SOC 2 + ISO 27001)',
+    summary: 'Automated compliance monitoring with immutable evidence collection for SOC 2 and ISO 27001',
+    problem: 'Manual compliance monitoring is time-intensive and error-prone, making continuous audit readiness nearly impossible',
+    approach: 'AWS Config/Security Hub automation + S3 Object Lock (WORM) + KMS encryption for tamper-proof evidence collection and real-time compliance monitoring',
+    results: 'Achieved 99.9% audit readiness; reduced compliance preparation from months to days; zero evidence tampering incidents',
+    role: 'Cloud Security Architect, Compliance Engineer',
+    stack: ['AWS Config', 'Security Hub', 'S3 Object Lock', 'KMS', 'Lambda', 'CloudWatch'],
+    category: 'Security',
+    year: '2024',
+    badge: 'Security',
+    links: {
+      github: 'https://github.com/Jusharra/continuous-compliance-platform'
+    },
+    image: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg'
+  },
+  {
+    id: 'soc2-auditor-ai',
+    title: 'AWS SOC 2 Evidence Collection + Auditor AI Agent',
+    summary: 'AI workflow automation for SOC 2 evidence collection, mapping, and reporting with drift detection',
+    problem: 'SOC 2 evidence collection is manual, time-consuming, and prone to gaps that can lead to audit findings',
+    approach: 'AI agent orchestration + automated AWS evidence collection + drift detection + intelligent mapping to SOC 2 trust service criteria',
+    results: 'Automated 95% of evidence collection tasks; detected 100% of control drift within 24 hours; reduced auditor preparation time by 80%',
+    role: 'AI Security Engineer, SOC 2 Specialist',
+    stack: ['Python', 'AI Agents', 'AWS APIs', 'SOC 2 Framework', 'Machine Learning', 'Automation'],
+    category: 'AI',
+    year: '2024',
+    badge: 'AI',
+    links: {
+      github: 'https://github.com/Jusharra/soc2-auditor-ai'
+    },
+    image: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg'
   }
 ];
 

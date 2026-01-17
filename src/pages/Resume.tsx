@@ -24,15 +24,16 @@ const skills = [
 ];
 
 const certifications = [
-  { name: 'CompTIA A+', year: 'Expired: 2022', current: false, expired: true, id: 'CompTIA A+ Expired' },
-  { name: 'CompTIA Network+', year: 'Expired: 2022', current: false, expired: true, id: 'CompTIA Network+ Expired' },
-  { name: 'CompTIA Security+', year: 'Expired: 2022', current: false, expired: true, id: 'CompTIA Security+ Expired' },
-  { name: 'CompTIA CySA+', year: 'Expired: 2022', current: false, expired: true, id: 'CompTIA CySA+ Expired' },
+  { name: 'CompTIA A+', year: 'Expired: 2023', current: false, expired: true, id: 'CompTIA A+ Expired' },
+  { name: 'CompTIA Network+', year: 'Expired: 2023', current: false, expired: true, id: 'CompTIA Network+ Expired' },
+  { name: 'CompTIA Security+', year: 'Expired: 2023', current: false, expired: true, id: 'CompTIA Security+ Expired' },
+  { name: 'CompTIA CySA+', year: 'Expired: 2023', current: false, expired: true, id: 'CompTIA CySA+ Expired' },
   { name: 'Microsoft AZ-500', year: 'Current', current: true, id: 'Microsoft AZ-500 Current' },
   { name: 'SANS SEC510', year: 'Current', current: true, id: 'SANS SEC510 Current' },
   { name: 'SANS: Continuous Monitoring', year: 'Current', current: true, id: 'SANS Continuous Monitoring Current' },
+  { name: 'AISF AI Security Foundation', year: 'Current', current: true, id: 'AISF AI Security Foundation' },
+  { name: 'AISP AI Security Practitioner', year: 'Current', current: true, id: 'AISF AI Security Practitioner' },
   { name: 'CISSP', year: 'Target: 2026', current: false, target: true, id: 'CISSP Certification Target' },
-  { name: 'Pentest +', year: 'Target: 2026', current: false, target: true, id: 'Pentest+ Certification Target' }
 ];
 
 const experience = [
@@ -183,7 +184,7 @@ export default function Resume() {
             Quashaya Goree
           </h1>
           <p className="text-xl text-gray-600 mb-6">
-            Cybersecurity Engineer • AI Automation Specialist • Technical Project Manager
+            Cybersecurity Engineer • AI Security Practitioner • GRC Engineer
           </p>
           
           {/* Contact Info */}
@@ -226,7 +227,7 @@ export default function Resume() {
           </CardHeader>
           <CardContent>
             <p className="text-gray-700 leading-relaxed">
-              Highly accomplished and results-driven Cybersecurity Engineer with a proven track record of designing, implementing, and managing robust security solutions across diverse environments. Expertise in cloud security (AWS, Azure), identity and access management (IAM), incident response, vulnerability management, and compliance (HIPAA, SOC 2, PCI-DSS). Adept at leveraging AI/ML for automation, scripting (Python, PowerShell, Bash), and leading cross-functional teams to achieve strategic security objectives. Currently pursuing CISSP certification to further enhance strategic security leadership capabilities.
+              AI Security, GRC, and Identity Engineer with a strong record of designing and governing secure enterprise systems across cloud and regulated environments. My work focuses on building identity-aware, risk-driven architectures that integrate AI security, compliance automation, and operational resilience. I bring deep experience across AWS and Azure, IAM, incident response, vulnerability management, and compliance programs including HIPAA, SOC 2, and PCI-DSS. I leverage AI-driven automation and scripting to translate governance and security requirements into scalable, testable controls, while collaborating closely with engineering, security, and leadership teams to support informed decision-making. I am currently pursuing CISSP certification to further strengthen my strategic security and governance leadership.
             </p>
           </CardContent>
         </Card>
