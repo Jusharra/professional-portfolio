@@ -29,7 +29,7 @@ const experiences = [
         description: 'in unauthorized access attempts via Zero-Trust architecture'
       }
     ],
-    technologies: ['AWS', 'Zero-Trust', 'SIEM', 'Python', 'Incident Response', 'SOC2']
+    technologies: ['Azure', 'Zero-Trust', 'SIEM', 'Python', 'Incident Response', 'SOC2']
   },
   {
     role: 'IT Security Analyst',
@@ -143,8 +143,8 @@ export default function Experience() {
             Are you hiring?
           </h3>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Let's explore how my expertise in enterprise security architecture, 
-            AI automation, and compliance can help protect and scale your organization.
+            Let’s explore how my work in enterprise security architecture, AI security, 
+            and compliance engineering helps organizations manage risk while scaling AI-enabled systems responsibly.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" asChild>

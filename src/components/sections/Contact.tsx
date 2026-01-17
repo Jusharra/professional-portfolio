@@ -57,8 +57,8 @@ export default function Contact() {
             Let's Connect
           </h2>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Ready to discuss cybersecurity challenges, AI automation opportunities, 
-            or potential collaboration? I'd love to hear from you.
+            Ready to discuss AI security challenges, governance strategy, or identity-driven automation 
+            opportunities? I’d welcome the conversation.
           </p>
         </div>
 
@@ -100,7 +100,7 @@ export default function Contact() {
                   <Mail className="h-5 w-5 text-blue-300" />
                   <div>
                     <p className="text-sm text-blue-100">Email</p>
-                    <a href="mailto:contact@quashayajgoree.com" className="text-white hover:text-blue-200">
+                    <a href="mailto:qjgoree@gmail.com" className="text-white hover:text-blue-200">
                       qjgoree@gmail.com
                     </a>
                   </div>

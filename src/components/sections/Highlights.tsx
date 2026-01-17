@@ -17,6 +17,8 @@ const certifications = [
   { name: 'CompTIA Network+', current: true },
   { name: 'CompTIA A+', current: true },
   { name: 'AWS Cloud Practitioner', current: true },
+  { name: 'AISF AI Security Foundation', current: true },
+  { name: 'AISP AI Security Practitioner', current: true },
   { name: 'CISSP', current: false, target: true }
 ];
 
@@ -27,15 +29,25 @@ const currentProjects = [
     status: 'Production'
   },
   {
-    name: 'Laundromat SaaS',
-    description: 'IoT-enabled operations management platform',
+    name: 'Secure RAG Pipeline Hardening + MLSecOps SOC',
+    description: 'A fully secured, identity-aware RAG pipeline on Azure, with MLSecOps detection, attack visibility, MCP-driven automated security actions, and a verifiable evidence chain—mirroring the SOC workflows shown in your screenshots but adapted for RAG security instead of traditional SIEM.',
     status: 'Beta Testing'
   },
   {
-    name: 'Gold E-commerce',
-    description: 'Secure precious metals trading platform',
+    name: 'Compliance-as-Code-Terraform-Guardrails',
+    description: 'Automates compliance checks for Terraform infrastructure ',
     status: 'Production'
-  }
+  },
+  {
+    name: 'AI-Governance-Knowledge-Base',
+    description: 'A Retrieval-Augmented Generation (RAG) and MCP agent that helps auditors, engineers, or executives instantly find which control or policy addresses a given compliance requirement',
+    status: 'Production'
+  },
+  {
+    name: 'Automated Access Review',
+    description: 'AWS Access Review is a comprehensive, zero-configuration security assessment tool that automatically evaluates your AWS environment for potential security risks and compliance gaps.',
+    status: 'Production'
+  },
 ];
 
 export default function Highlights() {
@@ -48,8 +60,8 @@ export default function Highlights() {
             Core Expertise & Focus
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Specializing in cybersecurity architecture, AI automation, and enterprise-grade solutions 
-            that bridge security and innovation.
+            Specializing in enterprise AI security architecture, identity governance, 
+            and compliance engineering to support secure innovation at scale.
           </p>
         </div>
 
@@ -140,8 +152,8 @@ export default function Highlights() {
               </div>
               <div className="mt-6 text-center">
                 <p className="text-sm text-gray-500 mb-4">
-                  Building secure, AI-powered solutions that automate complex workflows 
-                  while maintaining enterprise-grade security standards.
+                  Building secure, AI-powered systems that automate complex workflows through identity-aware architecture, 
+                  governance controls, and security-by-design.
                 </p>
               </div>
             </CardContent>

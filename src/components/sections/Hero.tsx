@@ -18,7 +18,7 @@ export default function Hero() {
             {/* CISSP Badge */}
             <Badge className="mb-6 bg-orange-100 text-orange-800 hover:bg-orange-200 border-0">
               <Calendar className="mr-2 h-4 w-4" />
-              CISSP Exam Target: January 2026
+              Building AI Systems for Continuous Compliance
             </Badge>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
@@ -35,20 +35,21 @@ export default function Hero() {
                 <div className="w-6 h-6 mr-3 flex items-center justify-center">
                   <div className="w-2 h-2 bg-blue-300 rounded-full"></div>
                 </div>
-                <span>AI Automation Specialist</span>
+                <span>AI Security Practitioner</span>
               </div>
               <div className="flex items-center">
                 <div className="w-6 h-6 mr-3 flex items-center justify-center">
                   <div className="w-2 h-2 bg-blue-300 rounded-full"></div>
                 </div>
-                <span>Technical Project Manager</span>
+                <span>GRC Engineer</span>
               </div>
             </div>
             
             <p className="text-lg text-blue-100 mb-8 max-w-2xl leading-relaxed">
-              Building secure, automated systems that reduce risk and accelerate delivery across 
-              enterprise healthcare and finance environments. Currently shipping: Patient Intake AI, 
-              Laundromat SaaS, and Premium Gold E-commerce platforms.
+              My work spans applied AI security labs and real-world production systems, including Compliance-as-Code Terraform Guardrails, 
+              GenAI DLP enforcement, AWS AI Continuous Compliance, SOC 2 evidence automation, and Azure agentic AI security research. 
+              I focus on building governed, identity-aware systems that reduce risk and support rapid delivery across healthcare and financial services. 
+              Currently shipping platforms include Patient Intake AI, Comply Guardian, a Laundromat SaaS product, and a premium gold e-commerce platform.
             </p>
             
             {/* CTA Buttons */}

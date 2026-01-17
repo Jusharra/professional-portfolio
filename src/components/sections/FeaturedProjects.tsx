@@ -11,7 +11,7 @@ const featuredProjects = [
     subtitle: 'HIPAA-Compliant Healthcare Automation',
     description: 'Voice-powered patient intake system with secure data processing, reducing manual work by 60% while ensuring HIPAA compliance.',
     impact: '60% faster intake processing',
-    stack: ['VAPI', 'HIPAA', 'Make.com', 'Airtable'],
+    stack: ['VAPI', 'HIPAA', 'Make.com', 'Supabase', 'RAG', 'MCP', 'Lovable'],
     image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg',
     badge: 'AI',
     links: { live: 'https://intriageflow.network/', github: 'https://github.com/Jusharra?tab=repositories' }
@@ -33,21 +33,21 @@ const featuredProjects = [
     subtitle: 'Secure Trading Platform',
     description: 'Enterprise-grade e-commerce platform for precious metals trading with real-time pricing, KYC verification, and fraud prevention.',
     impact: '$2M+ transactions processed',
-    stack: ['Next.js', 'Stripe', 'AWS', 'Redis'],
+    stack: ['Shopify', 'Stripe', 'Dropshipping'],
     image: 'https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg',
-    badge: 'Security',
+    badge: 'SaaS',
     links: { live: 'https://www.luxconnoisseurs.com/' }
   },
   {
     id: 'soc-automation',
-    title: 'SOC Incident Response Automation',
+    title: 'MLSecOps Incident Response Automation',
     subtitle: 'Enterprise Security Operations',
     description: 'Automated security incident response system with threat intelligence integration, reducing mean time to resolution by 65%.',
     impact: '65% faster incident response',
-    stack: ['Python', 'Splunk', 'MISP', 'Docker'],
+    stack: ['Python', 'MCP', 'RAG', 'Docker', 'Terraform', 'GitHub Actions', ' Azure Entra ID', 'Microsoft Foundry'],
     image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg',
     badge: 'Security',
-    links: { live: 'https://complyguardian-ai.lovable.app/', github: 'https://github.com/Jusharra?tab=repositories' }
+    links: { live: 'https://mlsecops-dashboard.streamlit.app/', github: 'https://github.com/Jusharra/azure-agentic-ai-security-lab/tree/feature/phase-1-identity-foundations://github.com/Jusharra?tab=repositories' }
   }
 ];
 
@@ -61,8 +61,8 @@ export default function FeaturedProjects() {
             Featured Projects
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Real-world applications of cybersecurity engineering expertise and AI automation, 
-            delivering measurable business impact across diverse industries.
+            Featured projects demonstrating applied AI security, governance, and identity engineering—translating frameworks into operational controls that reduce risk, strengthen trust, 
+            and scale securely across real-world environments.
           </p>
         </div>
 
@@ -156,7 +156,8 @@ export default function FeaturedProjects() {
             </Link>
           </Button>
           <p className="text-sm text-gray-600 mt-3">
-            Explore detailed case studies, technical implementations, and measurable outcomes
+            Explore detailed case studies and technical implementations that translate AI governance, security, 
+            and identity controls into measurable real-world outcomes.
           </p>
         </div>
       </div>
