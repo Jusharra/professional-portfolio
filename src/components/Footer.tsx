@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Shield, Linkedin, Github, Mail, Phone } from 'lucide-react';
+import { Shield, Linkedin, Github, Mail, Phone, Youtube } from 'lucide-react';
 
 export default function Footer() {
   const [currentYear] = useState<number>(new Date().getFullYear());
@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="text-xl font-bold">Quashaya Goree</span>
             </div>
             <p className="text-gray-300 text-sm">
-              Cybersecurity Engineer & AI Automation Specialist building secure, scalable solutions for enterprise.
+              AI-Driven GRC Engineer building secure, scalable, identity-aware systems for the enterprise.
             </p>
           </div>
 
@@ -38,8 +38,8 @@ export default function Footer() {
               <li>Cybersecurity Architecture</li>
               <li>AI Automation Systems</li>
               <li>Cloud Security (AWS/Azure)</li>
-              <li>Incident Response</li>
-              <li>HIPAA/SOC2 Compliance</li>
+              <li>Identity Governance</li>
+              <li>Continuous Compliance Assurance</li>
             </ul>
           </div>
 
@@ -65,6 +65,9 @@ export default function Footer() {
                 </a>
                 <a href="https://github.com/Jusharra?tab=repositories" className="text-gray-300 hover:text-blue-400 transition-colors">
                   <Github className="h-5 w-5" />
+                </a>
+                <a href="https://www.youtube.com/@first-choicecyber" className="text-gray-300 hover:text-blue-400 transition-colors">
+                  <Youtube className="h-5 w-5" />
                 </a>
               </div>
             </div>
