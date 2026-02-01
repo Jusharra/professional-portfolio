@@ -8,7 +8,7 @@ const skills = [
   { icon: Cloud, name: 'IAM & Zero Trust', description: 'Identity & access management' },
   { icon: Code, name: 'Security Scripting', description: 'Python & PowerShell automation' },
   { icon: Users, name: 'Incident Response', description: 'Threat hunting & containment' },
-  { icon: Award, name: 'Compliance', description: 'HIPAA, SOC2, & regulatory frameworks' }
+  { icon: Award, name: 'Compliance', description: 'HIPAA, SOC2, 42001, 27001 & regulatory frameworks' }
 ];
 
 const certifications = [
