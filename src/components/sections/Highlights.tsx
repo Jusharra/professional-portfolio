@@ -17,6 +17,8 @@ const certifications = [
   { name: 'CompTIA Network+', current: true },
   { name: 'CompTIA A+', current: true },
   { name: 'AWS Cloud Practitioner', current: true },
+  { name: 'ISO/IEC 27001:2022 Lead Auditor', current: true },
+  { name: 'ISO/IEC 42001:2023 Lead Auditor', current: true },
   { name: 'AISF AI Security Foundation', current: true },
   { name: 'AISP AI Security Practitioner', current: true },
   { name: 'CISSP', current: false, target: true }
