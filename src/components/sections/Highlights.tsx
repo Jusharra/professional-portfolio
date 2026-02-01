@@ -108,7 +108,7 @@ export default function Highlights() {
                     <span className="font-medium text-gray-900">{cert.name}</span>
                     {cert.target ? (
                       <Badge variant="outline" className="border-orange-300 text-orange-700 bg-orange-50">
-                        Jan 2026 Target
+                        Mar 2026 Target
                       </Badge>
                     ) : cert.current ? (
                       <Badge className="bg-green-100 text-green-800">

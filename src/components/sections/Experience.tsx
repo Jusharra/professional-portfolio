@@ -32,7 +32,7 @@ const experiences = [
     technologies: ['Azure', 'Zero-Trust', 'SIEM', 'Python', 'Incident Response', 'SOC2']
   },
   {
-    role: 'IT Security Analyst',
+    role: 'Cybersecurity Analyst',
     company: 'City of Hope',
     location: 'Irwindale, CA',
     period: '2020 - 2022',
