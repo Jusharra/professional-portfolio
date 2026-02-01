@@ -153,8 +153,8 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Contact
 
 **Quashaya Goree**
-- Portfolio: [\[Your Portfolio URL\]](https://quashayajgoree.com/)
-- LinkedIn: [\[Your LinkedIn\]](https://www.linkedin.com/in/quashayajgoree/)
+- Portfolio: https://quashayajgoree.com/
+- LinkedIn: https://www.linkedin.com/in/quashayajgoree/
 - Email: 1stchoicecyber@gmail.com
 - GitHub: [@Jusharra](https://github.com/Jusharra)
 
