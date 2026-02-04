@@ -204,7 +204,7 @@ const digitalProducts: DigitalProductProps[] = [
     description:
       'Cross-functional runbook for responding to AI data exposure, misuse, and integrity incidents—even without specialized detection tooling.',
     imageUrl: '/images/products/ai-incident-response-runbook.png',
-    productUrl: 'https://your-product-link.com/ai-incident-response-runbook',
+    productUrl: 'https://jusharra.gumroad.com/l/AI-Incident-Response-Runbook',
     price: '$49',
     category: 'Runbooks'
   },
