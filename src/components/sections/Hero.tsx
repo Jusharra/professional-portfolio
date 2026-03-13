@@ -96,7 +96,7 @@ export default function Hero() {
               {/* Main image container */}
               <div className="relative w-80 h-80 mx-auto rounded-full overflow-hidden border-4 border-white shadow-2xl">
                 <img
-                  src="/2.png"
+                  src="/3.png"
                   alt="Quashaya J. Goree"
                   className="w-full h-full object-cover"
                 />
